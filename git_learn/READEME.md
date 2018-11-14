@@ -1,5 +1,12 @@
-[TOC]
-# 1. 概述
+目录
+======
+[1. 概述](#概述)  
+[2. 核心概念](#核心概念)  
+[3. 常用命令](#常用命令)  
+[4. Git使用总结](#总结)  
+[5. 参考与引用](#参考与引用) 
+
+# 概述
 > **基本的 Git 工作流程如下：**
 > - 在工作目录中修改文件。
 > - 暂存文件，将文件的快照放入暂存区域。
@@ -48,7 +55,7 @@
 </html>
 
 ---
-# 2. 核心概念
+# 核心概念
 ## 2.1 文件的生命周期
 ![git管理文件时文件的生命周期](C:/Users/wyy/Desktop/life_cycle.png)  
 
@@ -64,7 +71,7 @@
 - 本地分支
 
 ---
-# 3. 常用命令
+# 常用命令
 ## 3.1 Git 配置
 ### 3.1.1 三个作用域
 > Git 内置config工具，可控制Git外观及行为。git config --[scope] 需指定作用域参数，默认为当前仓库。配置前，应该了解参数涉及的三个作用层面：
@@ -211,7 +218,7 @@ $ git push origin develop
 > `git checkout -b branch_name tag_name`从指定标签上检出分支
 
 ---
-# 4. Git使用总结
+# 总结
 > 1. 使用 `git help [command]`查找相关命令  
 > 2. Git 鼓励频繁的使用分支与合并  
 > 3. 项目分支命名规范及作用
@@ -274,7 +281,7 @@ $ git push origin develop
 </html>
 
 ---
-# 5. 参考与引用
+# 参考与引用
 - [廖雪峰-Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)  
 - [pro git](https://progit.bootcss.com/#_pro_git)  
 - [高质量GIT中文教程](https://github.com/geeeeeeeeek/git-recipes)  
