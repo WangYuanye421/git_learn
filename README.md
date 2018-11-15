@@ -249,7 +249,9 @@ M  表示文件被修改，M在右侧表示未加入暂存区，左侧表示已�
 > `git show tag_name`                   通过标签显示详情  
 > `git tag -a tag_name -m 'msg' `       新建附注标签  
 > `git push origin tag_name/--tags`     推送指定标签(所有标签)到远程  
-> `git checkout -b branch_name tag_name`从指定标签上检出分支
+> `git checkout -b branch_name tag_name`从指定标签上检出分支  
+> `git tag -d tag_name`                 删除本地标签  
+> `git push origin :refs/tags/tag_name` 删除远程标签
 
 ---
 # 总结
