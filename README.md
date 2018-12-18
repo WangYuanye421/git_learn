@@ -170,7 +170,7 @@ $ git clone [URL] [repo_name]          克隆远程仓库，项目目录命名�
 
 ### 3.4.2 新建
 > `git branch [local_branch]`             新建本地分支：local_branch             
-> `git push origin [remote_branch]`       新建远程分支：remote_branch  
+> `git push origin remote_branch:local_branch`       从本地分支local_branch检出并新建远程分支remote_branch  
 > `git branch -m old_name new_name`       分支改名
 
 ### 3.4.3 删除
