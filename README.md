@@ -146,7 +146,7 @@ $ git clone [URL] [repo_name]          克隆远程仓库，项目目录命名�
 > 用Git对已有的项目进行管理，并推至远程仓库
 ```
     $ git init                      //对项目目录进行初始化，将生成 .git 文件夹
-    $ git remote add [URL]          //为当前项目指定远程仓库（该仓库应该是一个空仓库）
+    $ git remote add origin remote_repo_url          //为当前项目指定远程仓库
         ......                      //将所有文件添加至暂存区并提交
 ```
 
