@@ -211,8 +211,9 @@ $ git clone [URL] [repo_name]          克隆远程仓库，项目目录命名�
 ### 3.4.7 拉/推代码
 > 当本地分支未与远程分支关联，**每次**pull/push时需要显式声明远程分支，即：
 ```
-$ git pull origin develop
-$ git push origin develop
+$ git pull origin develop（拉取代码并自动合并）
+$ git fetch origin develop(需要手动对比版本差别，手动合并)
+$ git push origin develop (推送代码)
 ```
 > 若 <a href="#guanlian">3.4.5 关联</a>了远程分支，可直接`git pull/push`
 
@@ -238,7 +239,9 @@ M  表示文件被修改，M在右侧表示未加入暂存区，左侧表示已�
 > `git checkout file_name`                      回退文件版本至本地仓库  
 > `git reset --hard [commit_id]`                回退到指定提交版本
 
-### 3.4.10 其他
+### 3.4.10 变基[odo]
+
+### 3.4.11 其他
 > `git log -p`              查看日志  
 
 > `git commit --amend`      修订提交，可以多次提交，只会有一次提交记录  
